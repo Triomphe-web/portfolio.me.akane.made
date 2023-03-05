@@ -37,19 +37,24 @@ div.flex > h5{
     padding: 20px;
     border-radius: 3%;
 }
-#mailto{
-    background-color: rgba(233, 75, 13, 0.568);
-}
-#facebook{
-    background-color: rgba(12, 116, 212, 0.568);
-}
-#linkdln{
-    background-color: rgba(13, 62, 221, 0.568);
-}
+
 a.nav:hover{
     color: black;
     text-decoration: none;
 }
+div.card--img{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+div.card--img > button {
+    padding: 30px;
+    outline: none;
+    box-shadow: 4px 4px;
+    border-radius: 20%;
+}
+
 h1{
+    padding-bottom: 20px;
     border-bottom: 2px solid rgb(23, 63, 173); 
 }
