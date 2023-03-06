@@ -44,6 +44,7 @@ div.item-link{
 }
 a.link{
     font-weight: bold;
+    padding: 10px;
 }
 a.link:hover{
     color: black;

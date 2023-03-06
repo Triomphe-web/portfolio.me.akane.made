@@ -44,10 +44,10 @@ a.nav:hover{
 }
 div.card--img{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px;
 }
-div.card--img > button {
+div.card--img > a {
     padding: 30px;
     outline: none;
     box-shadow: 4px 4px;
