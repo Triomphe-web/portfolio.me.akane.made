@@ -8,6 +8,10 @@ div.navigation{
     align-items: center;
     margin: 0;
 }
+#github_spec{
+    display: flex;
+    justify-content: center;
+}
 div.card {
     width: 16rem;
     border: 1px solid #000;
