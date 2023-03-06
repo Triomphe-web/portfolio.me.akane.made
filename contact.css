@@ -44,13 +44,12 @@ a.nav:hover{
 }
 div.card--img{
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    justify-content: space-evenly;
+    padding: 16px;
 }
 div.card--img > a {
-    padding: 30px;
     outline: none;
-    box-shadow: 4px 4px;
+    box-shadow: 5px 5px;
     border-radius: 20%;
 }
 

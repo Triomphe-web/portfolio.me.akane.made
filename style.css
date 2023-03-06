@@ -25,7 +25,10 @@ a.nav:hover{
     text-decoration: none;
 }
 img#font{
-    border-radius: 20%;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
