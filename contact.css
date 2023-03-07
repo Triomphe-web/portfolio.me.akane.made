@@ -44,7 +44,7 @@ a.nav:hover{
 }
 div.card--img{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     padding: 16px;
 }
 div.card--img > a {

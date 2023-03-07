@@ -24,6 +24,10 @@ a.nav:hover{
     color: black;
     text-decoration: none;
 }
+.hoverMe{
+    box-shadow: 2px 7px;
+    border: 2px solid black;
+}
 img#font{
     border-bottom-left-radius: 60%;
     border-bottom-right-radius: 60%;
@@ -54,5 +58,5 @@ a.link:hover{
     text-decoration: none;
 }
 h1{
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
