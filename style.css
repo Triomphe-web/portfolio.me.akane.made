@@ -57,6 +57,7 @@ div.flex{
 .container--flex--content{
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 .content{
     display: flex;
