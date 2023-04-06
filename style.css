@@ -1,15 +1,6 @@
 *{
     margin: 0;
 }
-div.navigation{
-    display: flex;
-    justify-content: center;
-    background-color: rgba(194, 189, 189, 0.171);
-    align-items: center;
-}
-.item{
-    margin: 20px;
-}
 a{
     color: rgb(2, 2, 2);
     letter-spacing: 0.1em;
@@ -37,6 +28,31 @@ img#font{
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 4px 1px 1px  rgb(20, 20, 20);
+}
+.purple_bg{
+    background-color: rgba(49, 50, 51, 0.76);
+}
+h4{
+    color: darkblue;
+}
+div.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.text_under_h4{
+    color: darkcyan;
+    font-size: large;
+    letter-spacing: 0.1em;
+}
+.card--about{
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    max-width: 450px;
+    margin-top: 50px;
+    box-shadow: 4px 2px 3px black;
+    margin-bottom: 50px;
 }
 .container--flex--content{
     justify-content: center;
