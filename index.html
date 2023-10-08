@@ -20,7 +20,7 @@
                 <br>
                 <br>
                 <p>Want to have a contact with me ? Visit this button below</p>
-                <a href="contact.html" class="btn btn-lg btn-primary">Contact</a>
+                <a href="contact.html" id="showmodal" class="btn btn-lg btn-primary">Contact</a>
             </div>
             <div class="right--section col-lg-6 col-md-12 col-xs-12">
                 <img id="font" src="img/TEST.png" class="img-fluid" alt="">
@@ -71,3 +71,15 @@
     <script src="typelighter.min.js"></script>
 </body>
 </html>
+<script>
+    // Exemple d'utilisation de SweetAlert2
+    document.addEventListener('DOMContentLoaded', function () {
+      Swal.fire({
+        title: 'Hello!',
+        text: 'Welcome to SweetAlert2.',
+        icon: 'success',
+        confirmButtonText: 'OK'
+      });
+    });
+  </script>
+  
