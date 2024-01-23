@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "sweetalert2": "^11.7.32"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
   }
 }

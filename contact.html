@@ -2,41 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css">
     <title>Contact</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #292626;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #contact-container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #007bff;
+        }
+
+        p {
+            color: #333;
+        }
+
+        .social-link {
+            margin: 20px;
+        }
+
+        .social-link a {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .github { background-color: #6cc644; }
+        .linkedin { background-color: #0077b5; }
+        .facebook { background-color: #3b5998; }
+        .discord { background-color: #7289da; }
+
+        .social-link a:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <br>
-    <a href="index.html"> Go homepage</a>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-8 col-md-12 col-xs-12">
-                <h1>Contact</h1>
-                <h3>To get more information,<br>
-                contact these profiles</h3>
-                <br>
-                <div class="row">
-                    <div class="col-12 parent__button__link">
-                        
-                        <div class="button__link">
-                            <a href="https://web.facebook.com/triomphe.forrest7/" class="btn btn-default"><img width="60" height="60" src="img/icons8-facebook-nouveau-60.png" alt="github">Facebook</a>
-                        </div>
-                        <div class="button__link">
-                            <a href="https://www.linkedin.com/in/forrest-triomphe-70965922b" class="btn btn-default"><img width="60" height="60" src="img/icons8-linkedin-60.png" alt="github">LinkdLn</a>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
 
-            <div class="col-lg-4 col-md-12 col-xs-12 content--flex">
-                <div class="github"><img src="img/github.jpg" class="img-fluid" alt=""></div>
-            </div>
+<div id="contact-container">
+    <img src="./img/me.jpg" alt="Votre Photo" width="200" class="img-fluid" height="200">
 
-        </div>
+    <h1>Contactez-moi</h1>
+    <p>Explorez mes connexions et découvrez mon univers à travers les différents réseaux sociaux :</p>
+
+
+    <div class="social-link btn">
+        <a href="https://github.com/votre_nom_github" target="_blank" class="github">GitHub</a>
     </div>
+
+    <div class="social-link btn">
+        <a href="https://www.linkedin.com/in/votre_nom_linkedin" target="_blank" class="linkedin">LinkedIn</a>
+    </div>
+
+    <div class="social-link btn">
+        <a href="https://www.facebook.com/votre_nom_facebook" target="_blank" class="facebook">Facebook</a>
+    </div>
+
+    <div class="social-link btn">
+        <a href="https://discord.gg/votre_nom_discord" target="_blank" class="discord">Discord</a>
+    </div>
+</div>
+
 </body>
 </html>
